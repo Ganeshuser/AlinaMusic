@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 24811651
+API_HASH = 15107f1ce863362d08573a273dae6c5f
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = "7195198599:AAHDwOSjvd6FQTAG1BpUKQC0RwrOtmbP8RI"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://thorzz.0pof1.mongodb.net/" --apiVersion 1 --username ganeshshimpi331"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = -1002457449821
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = 7377702831
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NexGenBots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/NexGenSpam")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CODE_CARE")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Best_friends_international_group")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQF6mIMATczADgwwicXMmr7fOauWLWYbISEWmoqHniLwHGqTw6rlJMxnpp_UtXhB78-xJzysfuUIrpflhEk8e7sa_bzcYNvEgvwxg053jJYmmRlqo3z-sU2-fp1womA6FGHSjQlOnnAIJpeAK-l6rk_nkwDSY_d9b2d2ueLklNgtVFVm2yQH8ArIZBrgTpRWvXWndmQwSAJ5-JuhbgruXbDEw6YBYQcrAK9noUYtSphrrEVStroEKnet1dop-i7glPCbWgPjtSQzWef5oENLMMARSUJPIrumnhKbeLEkDK2WvjG6KTTThO8c_NS8flrFi56_hLnBcmLhsmwD-JvLm-ru6usggQAAAAHTGQCMAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
